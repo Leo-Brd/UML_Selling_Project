@@ -17,7 +17,7 @@ class Manage:
     def delete_rental(self, product: Product):
         self.rental.removeRental(self.user.get_userId(), product.getProductId())
 
-    def modif_profil(self, firstName: str, name: str, age: int, email: str, username: str, password: str):
+    def modif_profile(self, firstName: str, name: str, age: int, email: str, username: str, password: str):
         self.user.set_firstName(firstName)
         self.user.set_name(name)
         self.user.set_age(age)
