@@ -12,6 +12,5 @@ class User:
         self.__Password = Password
         self.__Rental_list = Rental_list
 
-        self.fdp = "leo"
     
 
