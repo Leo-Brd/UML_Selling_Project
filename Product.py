@@ -20,7 +20,7 @@ class Product:
     
     def getCategory(self) -> str:
         return self.__category
-    
+
     def getProductType(self) -> str:
         return self.__productType
     

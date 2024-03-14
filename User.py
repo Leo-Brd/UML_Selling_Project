@@ -14,7 +14,6 @@ class User:
     def __str__(self):
         return f"User : {self.__userId}, {self.__firstName} {self.__name} {self.__age} {self.__email} {self.__username} {self.__password}"
     
-    
     def get_profil(self):
         return [self.__firstName, self.__name, self.__age, self.__email, self.__username ]
 
