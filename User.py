@@ -1,5 +1,7 @@
 # Fichier User
 
+from BuyClasses import Rental, Cart, Payments
+
 class User:
 
     def __init__(self, userId: int, firstName: str, name: str, age: int, email: str, username: str, password: str) -> None:
@@ -56,6 +58,4 @@ class User:
 
     def set_password(self, password):
         self.__password = password
-
-
 
