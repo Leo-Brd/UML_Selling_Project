@@ -1,7 +1,5 @@
 # Fichier User
 
-from BuyClasses import Rental, Cart, Payments
-
 class User:
 
     def __init__(self, userId: int, firstName: str, name: str, age: int, email: str, username: str, password: str) -> None:

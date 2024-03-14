@@ -1,7 +1,5 @@
 # Fichier Rental - Cart - Payments
 
-from User import User
-
 class Rental:
     def __init__(self):
         self.__rentalList = [] # Liste des locations (userId, [(productId, time_left), (productId, time_left), ...])
